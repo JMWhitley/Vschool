@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Travel form</title>
+        <link rel="stylesheet" href="main.css">
+    </header>
+
+    <body>
+        <h1>Travel Form for Flying Casket Airlines</h1>
+        <form name="travelForm">
+            <label for = "firstName">First Name:</label>
+            <input type="text" name="firstName" placeholder="First Name" required/>
+        <br>
+            <label for = "lastName">Last Name:</label>
+            <input type="text" name="lastName" placeholder="Last Name" required/>
+        <br>    
+            <label for = "age">Age:</label>    
+            <input type = "number" name= "age" required> 
+        <br>
+            <label for = "gender">Gender:</label>
+            Male: <input type="radio" name="gender" required/>
+            Female: <input type="radio" name="gender" required/> 
+        <br>
+            <label for = "location">location:</label>
+            <select name="location">
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Greece">Greece</option>
+            </select>    
+        <br>
+            <label for = "dietary">Diet Restrictions:</label>
+            vegan: <input type="checkbox" name="dietary" >
+            Vegetarian: <input type="checkbox" name="dietary" >
+            Gluten Free: <input type="checkbox" name="dietary" >
+            No restrictions: <input type="checkbox" name="dietary">
+        <br>    
+            <button>Submit</button>
+        </form> 
+        <script src="main.js"></script>
+    </body>
+
+
+</html>
