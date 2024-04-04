@@ -1,0 +1,74 @@
+{
+    "Appetizers": [
+        {
+            "name": "Mozzerela Sticks",
+            "ingredients": ["Cheese", "Bread cumbs"],
+            "description": "Cheesey bread sticks that come with house bread sticks"
+        },
+        {
+            "name": "Pretzel Bites",
+            "ingredients": ["flour", "Eggs", "Water", "Yeast", "Salt"],
+            "description": "Bite size pretzels that come with either salt or sugar and our house queso"
+        }
+    ],
+    "Cold Drinks": [
+        {
+            "name": "Soda",
+            "ingredients": ["carbonated water", "Flavoring Syrup"],
+            "description": "Available flavors: Pepsi, Mountian Dew, Diet Pepsie, Cherry Pepsi"
+        },
+        {
+            "name": "Slushi",
+            "ingredients": ["water", "Flavoring Syrup", "food Dye"],
+            "description": "Cherry, Blue Raspberry, Rootbeer,"
+        }
+    ],
+    "Hot Drinks": [
+        {
+            "name": "Coffee",
+            "ingredients":["Water", "Coffee Beans"],
+            "description": "Choice of: Dark, Medium, or Light roast house coffee"
+        },
+        {
+            "name": "Hot Chocolate",
+            "ingredients":["Milk", "Hot Cholocate Flavoring", "Toppings"],
+            "description": "Your choice of: Mint, White, Macha, Or Peppermint Hot Chocolate"
+        }
+    ],
+    "Desserts": [
+        {
+            "name": "Cake",
+            "ingredients":["flour", "Eggs", "Cocoa Power"],
+            "description": "Made in house fresh Chocolate cake"
+        },
+        {
+            "name": "Cookie",
+            "ingredients":["flour","Eggs","chocolate chips"],
+            "description": "Freshly made Chocolate chip cookies"
+        }
+    ],
+    "Cold Sandwiches": [
+        {
+            "name": "BLT",
+            "ingredients":["Bread", "Tomatos", "lettuce", "Bacon", "Cheese"],
+            "description": "Made to order BLT's with your choice of cheese"
+        },
+        {
+            "name": "Ham and Cheese",
+            "ingredients":["Bread", "Ham", "Cheese"],
+            "description": "An all American classic"
+        }
+    ],
+    "Hot Sandwiches": [
+        {
+            "name": "Grilled cheese",
+            "ingredients":["Bread", "mayo", "Cheese"],
+            "description": "Made to order Grilled cheese with your choice of cheese"
+        },
+        {
+            "name": "Philly Cheese",
+            "ingredients": ["Meat", "peppers", "Cheese", "House spices"],
+            "description": "House special sandwich with all the right amount of spices and flavors"
+        }
+    ]
+}
