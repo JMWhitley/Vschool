@@ -106,6 +106,7 @@ function listData(data) {
     checkbox.type = "checkbox";
     div.appendChild(checkbox);
     checkbox.className = "checkbox";
+    if (data[i].completed === true) {checkbox.checked = true}
     checkbox.addEventListener("change", (e) => {
     console.log("change")  
       if (e.target.checked)
@@ -120,6 +121,7 @@ function listData(data) {
       p.style.textDecorationColor = "black";
       p2.style.textDecorationColor = "black";
       }) 
+
     }
       else{
         axios
